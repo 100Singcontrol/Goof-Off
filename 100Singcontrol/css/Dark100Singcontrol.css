@@ -14,11 +14,11 @@ body a{
 a:hover{color: white;}
 a:active{color: black;}
 .h1{
-	height: 100px;
+	height: 80px;
 	color: red;
 	background-image:radial-gradient(black,red,black,red);
 	text-align: center;
-	line-height: 100px;
+	line-height: 80px;
 	}
 .liebiao-Dark{
 	float: right;
@@ -44,4 +44,8 @@ a:active{color: black;}
 .paomadeng-dark{
 	text-align: center;
 	color: red;
+}
+.search-dark{
+	margin-top: 10px;
+	float: right;
 }

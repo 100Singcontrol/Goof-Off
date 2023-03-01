@@ -14,11 +14,11 @@ body a{
 a:hover{color: white;}
 a:active{color: black;}
 .h1{
-	height: 100px;
+	height: 80px;
 	color: blue;
 	background-image:radial-gradient(white,blue,white,blue);
 	text-align: center;
-	line-height: 100px;
+	line-height: 80px;
 	text-decoration: line-through;
 	}
 .liebiao-control,.liebiao-joke,.liebiao-music,.liebiao-study,.liebiao-wzxx{
@@ -52,4 +52,8 @@ a:active{color: black;}
 .paomadeng{
 	text-align: center;
 	color: black;
+}
+.search{
+	margin-top: 10px;
+	float: right;
 }
