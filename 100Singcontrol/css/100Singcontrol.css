@@ -1,0 +1,55 @@
+*{
+	margin: 0rem;
+	padding: 0rem;
+}
+body{
+	background-color: royalblue;
+	background-image: url("../img/1.jpg");
+	background-size: 100%;
+}
+body a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{color: white;}
+a:active{color: black;}
+.h1{
+	height: 100px;
+	color: blue;
+	background-image:radial-gradient(white,blue,white,blue);
+	text-align: center;
+	line-height: 100px;
+	text-decoration: line-through;
+	}
+.liebiao-control,.liebiao-joke,.liebiao-music,.liebiao-study,.liebiao-wzxx{
+	float: left;
+	margin: 10px;
+}
+.liebiao-Dark{
+	float: right;
+	margin: 10px;
+}
+.liebiao-music,.liebiao-TS,.liebiao-joke{
+	float: left;
+	margin: 10px;
+}
+.h1-WZXX{
+	margin-top: 45px;
+}
+.ul-light{
+	width: 200px;
+	margin-top: 200px;
+	margin-left: 200px;
+	color: black;
+	text-align: center;
+	list-style-type: none;
+}
+.time{
+	text-align: center;
+	margin-top: 600px;
+	color: black;
+}
+.paomadeng{
+	text-align: center;
+	color: black;
+}
