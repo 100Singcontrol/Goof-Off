@@ -1,0 +1,178 @@
+/* 
+	Theam Name:loosingcontrol
+	Theam Auther:100SingControl
+	Description:个人用于wordpress的主题
+	Version:1.0
+ */
+@font-face{
+	font-family:'OCRA';
+	/* 引入字体声明类型 */
+	src: local('OCRA'),url(100SingControlBlog/fontfamily/OCRA/OCRA.otf) format('opentype');
+	/* 考虑易读性 */
+	text-rendering: optimizeLegibility; 
+	font-display: swap;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url("");
+	font-family: 'OCRA';
+	background-color: black;
+	line-height: 1.8;
+	font-size: 14px;
+	color: #CEFCD2;
+}
+a{
+	text-decoration: none;
+	color: #61Ea53;
+}
+a:hover{
+	color: #3399FF;
+}
+.header{
+	background-color: #000000;
+	height: 70px;
+	/* 阴影效果,参数为右/下/上/颜色 */
+	box-shadow: 0px 0px 10px #61Ea53;
+}
+.daohang{
+	width: 1024px;
+	/* 自动居中 */
+	margin: 0px auto;
+}
+.logo{
+	float: left;
+	margin-top: 10px;
+}
+.nav{
+	list-style: none;
+}
+.nav li{
+	float: left;
+	margin-left: 40px;
+	padding-top: 20px;
+}
+
+.search{
+	float: right;
+	padding-top: 20px;
+}
+.search input{
+	color: #61Ea53;
+	background-color: #000000;
+	border-radius: 3px;
+	border-color: #61Ea53;
+}
+.main{
+	width: 1200px;
+	margin: 0px auto;
+	background-color: #000000;
+	margin-top: 20px;
+	padding: 10px 0px 10px 0px;
+}
+.main-left{
+	color: #CEFCD2;
+	width: 800px;
+	float: left;
+}
+.article{
+	border-bottom: 2px solid #CEFCD2;
+	background-color: #111111;
+	width: 800px;
+}
+.article-div{
+	background-color: #111111;
+	width: 800px;
+}
+.article-image{
+	float: left;
+}
+.article-list{
+	float: left;
+	background-color: #111111;
+}
+.article-content{
+	margin-top: 10px;
+}
+.article-data{
+	margin-top: 40px;
+}
+/* main-right部分 */
+.main-right{
+	float: left;
+	width: 400px;
+}
+.recent{
+	padding-left: 10px;
+	margin-left: 10px;
+	border-left: 2px solid #61Ea53;
+	background-color: #111111;
+}
+.recent-list li{
+	list-style-type: armenian;
+	margin-left: 30px;
+	/* 字体超出则隐藏 */
+	overflow: hidden;
+	margin-top: 10px;
+}
+/* history部分 */
+.history{
+	padding-left: 10px;
+	margin-left: 10px;
+	border-left: 2px solid #61Ea53;
+	background-color: #111111;
+	margin-top: 20px;
+}
+.history-list li{
+	list-style-type: armenian;
+	margin-left: 30px;
+	/* 字体超出则隐藏 */
+	overflow: hidden;
+	margin-top: 10px;
+}
+/* ervma部分 */
+.ervma{
+	padding-left: 10px;
+	margin-left: 10px;
+	border-left: 2px solid #61Ea53;
+	background-color: #111111;
+	margin-top: 20px;
+}
+.ervma img{
+	width: 90%;
+	height: 90%;
+}
+/* 使More居中 */
+.more a{
+	/* a标签无左右距离概念，将其定义为块状 */
+	display: block;
+	text-align: center;
+}
+.more a:hover{
+	color: #3399FF;
+}
+/* footer部分 */
+.footer{
+	background-color: #111111;
+	padding: 35px;
+}
+/* 清除浮动使footer在下方 */
+.cls{
+	clear:both;
+}
+.footer-link{
+	margin-left: 400px;
+	width: 1024px;
+	list-style: none;
+}
+.footer-link li{
+	float: left;
+	margin-left: 40px;
+	text-align: center;
+}
+.Copyright{
+	clear: left;
+	text-align: center;
+}
